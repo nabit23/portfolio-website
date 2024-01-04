@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" />
+    <meta name="twitter:image:alt" />
+    <meta name="twitter:title" />
+    <meta name="twitter:description" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/nk_logo.jpeg">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/nk_logo.jpeg">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    <title>Nabit Karowadia</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-nav">
+        <div class="nav-logo">
+          <h1></h1>
+        </div>
+
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        ></button>
+
+        <ul id="primary-nav" class="primary-nav" data-visible="false">
+          <li>
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-container">
+          <div class="hero-text-container" data-aos="fade-up">
+            <p>Hey there,</p>
+            <h2>I am Nabit Karowadia.</h2>
+          </div>
+          <a href="#contact" class="hero-button" data-aos="fade-up">Let's connect!</a>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section-highlight" data-aos="fade-up">ABOUT</div>
+        <div class="about-container" data-aos="fade-up">
+          <div class="about-card">
+            <section class="about-content">
+              <h2>> About</h2>
+              <p>
+                I'm a computer science major, minor in business administration at University of Houston. 
+                I am a sports fanatic who loves football and basketball. 
+                My interest is in software engineering, software design and development. 
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="section-highlight" data-aos="fade-up">Portfolio</div>
+        <div class="portfolio-container" data-aos="fade-up">
+          <div class="portfolio-card">
+            <div class="portfolio-content">
+              <h2>> Portfolio</h2>
+
+              <!-- input projects inside project container -->
+              <div class="project-container">
+                <section class="project-card">
+                  <img
+                    class="project-img"
+                    src="./assets/legacy of the lost world.png"
+                    alt="project-1"
+                  />
+                  <h3>Legacy Of The Lost World</h3>
+                  <h5>Project description</h5>
+                  <p>
+                    A 2D game with basic mechanisms like running, jumping, and attacking using 
+                    Unity, C++ & C.
+                  </p>
+                </section>
+
+                <section class="project-card">
+                  <img
+                    class="project-img"
+                    src="./assets/portfolio.png"
+                    alt="project-1"
+                  />
+                  <h3>Portfolio Website </h3>
+                  <h5>Project description</h5>
+                  <p>
+                    Created an interactive peronal portfolio website with a user-friendly interface using HTML, CSS & JavaScript. 
+                  </p>
+                </section>
+      </section>
+
+      <section id="contact">
+        <h2 class="section-highlight" data-aos="fade-up">Contacts</h2>
+        <div class="contact-container" data-aos="fade-up">
+          <div class="contact-card">
+            <h2>> Contacts</h2>
+            <p>You can connect with me through these following links:</p>
+            <div class="contact-links">
+              <a href="./my_Resume.pdf" target="_blank">
+                <img
+                  class="contact-icons"
+                  src="./assets/resume-logo.png"
+                  alt="email.png"
+                />
+                Resume
+              </a>
+            </div>
+
+            <div class="contact-links">
+              <a href="mailto:nabitkarowadia23@gmail.com">
+                <img
+                  class="contact-icons"
+                  src="./assets/email.png"
+                  alt="email.png"
+                />
+                Email
+              </a>
+            </div>
+
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/nabit-karowadia-848376224/">
+                <img
+                  class="contact-icons"
+                  src="./assets/linkedin-icon.svg"
+                  alt="linkedin-icon"
+                />
+                LinkedIn
+              </a>
+
+              <a href="https://github.com/nabit23">
+                <img
+                  class="contact-icons"
+                  src="./assets/github-icon.svg"
+                  alt="github-icon.svp"
+                />
+                GitHub
+              </a>
+
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+      </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>       
+      AOS.init({
+        once: true,
+        delay: 0
+      });
+    </script>
+  </body>
+</html>
